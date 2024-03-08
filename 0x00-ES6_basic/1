@@ -1,0 +1,371 @@
+@DESKTOP-M1BTOP9 MINGW64 ~
+$ ssh 5b6758e34485@5b6758e34485.d35a87b5.alx-cod.online
+5b6758e34485@5b6758e34485.d35a87b5.alx-cod.online's password:
+root@5b6758e34485:/# ls
+0x00-pascal_triangle     boot  lib    nodesource_setup.sh  root  sys
+alx-frontend-javascript  dev   lib64  opt                  run   tmp
+alx-interview            etc   media  proc                 sbin  usr
+bin                      home  mnt    README.md            srv   var
+root@5b6758e34485:/# cd  alx-frontend-javascript
+root@5b6758e34485:/alx-frontend-javascript# ls
+0x00-ES6_basic  0x01-ES6_promise  0x02-ES6_classes  README.md
+root@5b6758e34485:/alx-frontend-javascript# cd 0x02-ES6_classes
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# ls
+0-classroom.js  1-make_classrooms.js  5-building.js  babel.config.js
+0-main.js       2-hbtn_course.js      5-main.js      node_modules
+100-evcar.js    2-main.js             6-main.js      package.json
+100-main.js     3-currency.js         6-sky_high.js  package-lock.json
+10-car.js       3-main.js             7-airport.js   README.md
+10-main.js      4-main.js             7-main.js      test
+1-main.js       4-pricing.js          8-main.js
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# vi 8-hbtn_class.js
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# npm run dev 8-main.js
+
+> @ dev /alx-frontend-javascript/0x02-ES6_classes
+> npx babel-node "8-main.js"
+
+12
+Mezzanine
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# vi 9-main.js
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# vi 9-hoisting.js
+
+
+
+
+
+
+
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# npm run dev 9-main.js
+
+> @ dev /alx-frontend-javascript/0x02-ES6_classes
+> npx babel-node "9-main.js"
+
+/alx-frontend-javascript/0x02-ES6_classes/9-hoisting.js:24
+    this._holbertonClass = holbertonClass;
+                           ^
+
+ReferenceError: holbertonClass is not defined
+    at new StudentHolberton (/alx-frontend-javascript/0x02-ES6_classes/9-hoisting.js:18:26)
+    at Object.<anonymous> (/alx-frontend-javascript/0x02-ES6_classes/9-hoisting.js:34:18)
+    at Module._compile (internal/modules/cjs/loader.js:945:30)
+    at Module._compile (/alx-frontend-javascript/0x02-ES6_classes/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+    at Object.newLoader [as .js] (/alx-frontend-javascript/0x02-ES6_classes/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:798:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:711:12)
+    at Module.require (internal/modules/cjs/loader.js:838:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ dev: `npx babel-node "9-main.js"`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the @ dev script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2024-03-08T20_28_18_278Z-debug.log
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# vi 9-hoisting.js   root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# npm run dev 9-main.js
+
+> @ dev /alx-frontend-javascript/0x02-ES6_classes
+> npx babel-node "9-main.js"
+
+/alx-frontend-javascript/0x02-ES6_classes/9-hoisting.js:24
+    this._holbertonClass = holbertonClass;
+                           ^
+
+ReferenceError: holbertonClass is not defined
+    at new StudentHolberton (/alx-frontend-javascript/0x02-ES6_classes/9-hoisting.js:18:26)
+    at Object.<anonymous> (/alx-frontend-javascript/0x02-ES6_classes/9-hoisting.js:34:18)
+    at Module._compile (internal/modules/cjs/loader.js:945:30)
+    at Module._compile (/alx-frontend-javascript/0x02-ES6_classes/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+    at Object.newLoader [as .js] (/alx-frontend-javascript/0x02-ES6_classes/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:798:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:711:12)
+    at Module.require (internal/modules/cjs/loader.js:838:19)
+    at require (internal/modules/cjs/helpers.js:74:18)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ dev: `npx babel-node "9-main.js"`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the @ dev script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2024-03-08T20_31_22_677Z-debug.log
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# vi 9-hoisting.js   root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# npm run dev 9-main.js
+
+> @ dev /alx-frontend-javascript/0x02-ES6_classes
+> npx babel-node "9-main.js"
+
+[
+  StudentHolberton {
+    _firstName: 'Guillaume',
+    _lastName: 'Salva',
+    _holbertonClass: HolbertonClass { _year: 2020, _location: 'San Francisco' }
+  },
+  StudentHolberton {
+    _firstName: 'John',
+    _lastName: 'Doe',
+    _holbertonClass: HolbertonClass { _year: 2020, _location: 'San Francisco' }
+  },
+  StudentHolberton {
+    _firstName: 'Albert',
+    _lastName: 'Clinton',
+    _holbertonClass: HolbertonClass { _year: 2019, _location: 'San Francisco' }
+  },
+  StudentHolberton {
+    _firstName: 'Donald',
+    _lastName: 'Bush',
+    _holbertonClass: HolbertonClass { _year: 2019, _location: 'San Francisco' }
+  },
+  StudentHolberton {
+    _firstName: 'Jason',
+    _lastName: 'Sandler',
+    _holbertonClass: HolbertonClass { _year: 2019, _location: 'San Francisco' }
+  }
+]
+/alx-frontend-javascript/0x02-ES6_classes/9-hoisting.js:33
+    return `${self._firstName} ${self._lastName} - ${self._holbertonClass.year} - ${self._holbertonClass.location}`;
+                                                                          ^
+
+TypeError: Cannot read property 'year' of undefined
+    at StudentHolberton.fullStudentDescription (/alx-frontend-javascript/0x02-ES6_classes/9-hoisting.js:27:73)
+    at map (/alx-frontend-javascript/0x02-ES6_classes/9-main.js:6:24)
+    at Array.map (<anonymous>)
+    at Object.<anonymous> (/alx-frontend-javascript/0x02-ES6_classes/9-main.js:5:36)
+    at Module._compile (internal/modules/cjs/loader.js:945:30)
+    at Module._compile (/alx-frontend-javascript/0x02-ES6_classes/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+    at Object.newLoader [as .js] (/alx-frontend-javascript/0x02-ES6_classes/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:798:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:711:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ dev: `npx babel-node "9-main.js"`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the @ dev script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2024-03-08T20_38_44_979Z-debug.log
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# vi 9-hoisting.js   root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# npm run dev 9-main.js
+
+> @ dev /alx-frontend-javascript/0x02-ES6_classes
+> npx babel-node "9-main.js"
+
+[
+  StudentHolberton {
+    _firstName: 'Guillaume',
+    _lastName: 'Salva',
+    _holbertonClass: HolbertonClass { _year: 2020, _location: 'San Francisco' }
+  },
+  StudentHolberton {
+    _firstName: 'John',
+    _lastName: 'Doe',
+    _holbertonClass: HolbertonClass { _year: 2020, _location: 'San Francisco' }
+  },
+  StudentHolberton {
+    _firstName: 'Albert',
+    _lastName: 'Clinton',
+    _holbertonClass: HolbertonClass { _year: 2019, _location: 'San Francisco' }
+  },
+  StudentHolberton {
+    _firstName: 'Donald',
+    _lastName: 'Bush',
+    _holbertonClass: HolbertonClass { _year: 2019, _location: 'San Francisco' }
+  },
+  StudentHolberton {
+    _firstName: 'Jason',
+    _lastName: 'Sandler',
+    _holbertonClass: HolbertonClass { _year: 2019, _location: 'San Francisco' }
+  }
+]
+/alx-frontend-javascript/0x02-ES6_classes/9-hoisting.js:34
+                ${self._holbertonClass.year} - ${self._holbertonClass.location}`;
+                                       ^
+
+TypeError: Cannot read property 'year' of undefined
+    at StudentHolberton.fullStudentDescription (/alx-frontend-javascript/0x02-ES6_classes/9-hoisting.js:28:26)
+    at map (/alx-frontend-javascript/0x02-ES6_classes/9-main.js:6:24)
+    at Array.map (<anonymous>)
+    at Object.<anonymous> (/alx-frontend-javascript/0x02-ES6_classes/9-main.js:5:36)
+    at Module._compile (internal/modules/cjs/loader.js:945:30)
+    at Module._compile (/alx-frontend-javascript/0x02-ES6_classes/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+    at Object.newLoader [as .js] (/alx-frontend-javascript/0x02-ES6_classes/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:798:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:711:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ dev: `npx babel-node "9-main.js"`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the @ dev script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2024-03-08T20_42_35_576Z-debug.log
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# vi 9-hoisting.js   root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# vi 9-main.js
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# npm run dev 9-main.js
+
+> @ dev /alx-frontend-javascript/0x02-ES6_classes
+> npx babel-node "9-main.js"
+
+[
+  StudentHolberton {
+    _firstName: 'Guillaume',
+    _lastName: 'Salva',
+    _holbertonClass: HolbertonClass { _year: 2020, _location: 'San Francisco' }
+  },
+  StudentHolberton {
+    _firstName: 'John',
+    _lastName: 'Doe',
+    _holbertonClass: HolbertonClass { _year: 2020, _location: 'San Francisco' }
+  },
+  StudentHolberton {
+    _firstName: 'Albert',
+    _lastName: 'Clinton',
+    _holbertonClass: HolbertonClass { _year: 2019, _location: 'San Francisco' }
+  },
+  StudentHolberton {
+    _firstName: 'Donald',
+    _lastName: 'Bush',
+    _holbertonClass: HolbertonClass { _year: 2019, _location: 'San Francisco' }
+  },
+  StudentHolberton {
+    _firstName: 'Jason',
+    _lastName: 'Sandler',
+    _holbertonClass: HolbertonClass { _year: 2019, _location: 'San Francisco' }
+  }
+]
+/alx-frontend-javascript/0x02-ES6_classes/9-hoisting.js:34
+                ${self._holbertonClass.year} - ${self._holbertonClass.location}`;
+                                       ^
+
+TypeError: Cannot read property 'year' of undefined
+    at StudentHolberton.fullStudentDescription (/alx-frontend-javascript/0x02-ES6_classes/9-hoisting.js:28:26)
+    at map (/alx-frontend-javascript/0x02-ES6_classes/9-main.js:6:21)
+    at Array.map (<anonymous>)
+    at Object.<anonymous> (/alx-frontend-javascript/0x02-ES6_classes/9-main.js:5:36)
+    at Module._compile (internal/modules/cjs/loader.js:945:30)
+    at Module._compile (/alx-frontend-javascript/0x02-ES6_classes/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:962:10)
+    at Object.newLoader [as .js] (/alx-frontend-javascript/0x02-ES6_classes/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (internal/modules/cjs/loader.js:798:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:711:12)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ dev: `npx babel-node "9-main.js"`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the @ dev script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2024-03-08T20_52_18_178Z-debug.log
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# vi 9-hoisting.js
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# git add .
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# git commit -m "class"
+[master 3005912] class
+ 12 files changed, 160 insertions(+)
+ create mode 100644 0x02-ES6_classes/.4-pricing.js.swo
+ create mode 100644 0x02-ES6_classes/.4-pricing.js.swp
+ create mode 100644 0x02-ES6_classes/.8-hbtn_class.js.swp
+ create mode 100644 0x02-ES6_classes/.9-hoisting.js.swp
+ create mode 100644 0x02-ES6_classes/4-main.js
+ create mode 100644 0x02-ES6_classes/4-pricing.js
+ create mode 100644 0x02-ES6_classes/7-airport.js
+ create mode 100644 0x02-ES6_classes/7-main.js
+ create mode 100644 0x02-ES6_classes/8-hbtn_class.js
+ create mode 100644 0x02-ES6_classes/8-main.js
+ create mode 100644 0x02-ES6_classes/9-hoisting.js
+ create mode 100644 0x02-ES6_classes/9-main.js
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# git push
+Username for 'https://github.com': zelalemng
+Password for 'https://zelalemng@github.com':
+Counting objects: 15, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (15/15), done.
+Writing objects: 100% (15/15), 3.42 KiB | 1.14 MiB/s, done.
+Total 15 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), completed with 2 local objects.
+To https://github.com/zelalemng/alx-frontend-javascript.git
+   12db8b7..3005912  master -> master
+root@5b6758e34485:/alx-frontend-javascript/0x02-ES6_classes# cd ..
+root@5b6758e34485:/alx-frontend-javascript# ls
+0x00-ES6_basic  0x01-ES6_promise  0x02-ES6_classes  README.md
+root@5b6758e34485:/alx-frontend-javascript# cd 0x00-ES6_basic
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic# ls
+0-constants.js     1-main.js        node_modules  package-lock.json  tests
+1-block-scoped.js  babel.config.js  package.json  README.md
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic# cd test
+bash: cd: test: No such file or directory
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic# cd tests
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic/tests# ls
+test.js
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic/tests# cd ..
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic# ls
+0-constants.js     1-main.js        node_modules  package-lock.json  tests
+1-block-scoped.js  babel.config.js  package.json  README.md
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic# vi 0-main.js
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic# vi 2-main.js
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic# vi 2-arrow.js
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic# npm run dev 2-main.js
+
+> @ dev /alx-frontend-javascript/0x00-ES6_basic
+> npx babel-node "2-main.js"
+
+/alx-frontend-javascript/0x00-ES6_basic/node_modules/@babel/core/lib/parser/index.js:74
+    throw err;
+    ^
+
+SyntaxError: /alx-frontend-javascript/0x00-ES6_basic/2-arrow.js: Missing semicolon. (4:21)
+
+  2 |   this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
+  3 |   const self = this;
+> 4 |   this.addNeighborhood => (newNeighborhood) {
+    |                       ^
+  5 |           self.sanFranciscoNeighborhoods.push(newNeighborhood);
+  6 |           return self.sanFranciscoNeighborhoods;
+  7 |   };
+    at toParseError (/alx-frontend-javascript/0x00-ES6_basic/node_modules/@babel/parser/src/parse-error.ts:74:19)
+    at Parser.raise (/alx-frontend-javascript/0x00-ES6_basic/node_modules/@babel/parser/src/tokenizer/index.ts:1487:19)
+    at Parser.semicolon (/alx-frontend-javascript/0x00-ES6_basic/node_modules/@babel/parser/src/parser/util.ts:141:10)
+    at Parser.parseExpressionStatement (/alx-frontend-javascript/0x00-ES6_basic/node_modules/@babel/parser/src/parser/statement.ts:1305:10)
+    at Parser.parseStatementContent (/alx-frontend-javascript/0x00-ES6_basic/node_modules/@babel/parser/src/parser/statement.ts:651:19)
+    at Parser.parseStatementLike (/alx-frontend-javascript/0x00-ES6_basic/node_modules/@babel/parser/src/parser/statement.ts:417:17)
+    at Parser.parseStatementListItem (/alx-frontend-javascript/0x00-ES6_basic/node_modules/@babel/parser/src/parser/statement.ts:366:17)
+    at Parser.parseBlockOrModuleBlockBody (/alx-frontend-javascript/0x00-ES6_basic/node_modules/@babel/parser/src/parser/statement.ts:1386:16)
+    at Parser.parseBlockBody (/alx-frontend-javascript/0x00-ES6_basic/node_modules/@babel/parser/src/parser/statement.ts:1359:10)
+    at Parser.parseBlock (/alx-frontend-javascript/0x00-ES6_basic/node_modules/@babel/parser/src/parser/statement.ts:1327:10) {
+  code: 'BABEL_PARSE_ERROR',
+  reasonCode: 'MissingSemicolon',
+  loc: Position { line: 4, column: 21, index: 150 },
+  pos: 150
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @ dev: `npx babel-node "2-main.js"`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the @ dev script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2024-03-08T21_14_12_879Z-debug.log
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic# vi 2-arrow.js
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic# npm run dev 2-main.js
+
+> @ dev /alx-frontend-javascript/0x00-ES6_basic
+> npx babel-node "2-main.js"
+
+[ 'SOMA', 'Union Square', 'Noe Valley' ]
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic# vi  101-main.js
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic# vi 101-iterateThroughObject.js
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic# vi 12-createReportObject.js
+root@5b6758e34485:/alx-frontend-javascript/0x00-ES6_basic# vi 11-createEmployeesObject.js
+
